@@ -1,0 +1,109 @@
+body , html {
+   height : 100% ;
+   margin :0 ;
+   font-size : 16 px;
+   font-family :cursive ;
+   font-weight : bold ;
+   line-height: 1.6em;
+   color: rgb(68, 61, 61);
+}
+
+.pimg1,.pimg2 ,.pimg3,.pimg4{
+    position: relative; 
+    background-position:center ;
+    opacity : 0.8 ;
+    background-size : cover ;
+    background-repeat : no-repeat ;
+    /*
+    i will do it later when i am done  with this
+    */
+    background-attachment : fixed ;
+}
+
+.pimg1 {
+    background-image :url('../img/ball.jpeg');
+    min-height : 100% ;
+}
+
+
+.pimg2 {
+    background-image :url('../img/tt.jpeg');
+    min-height : 40% ;
+}
+
+
+.pimg3 {
+    background-image :url('../img/basket.jpeg');
+    min-height : 50% ;
+}
+
+.pimg4 {
+    background-image :url('../img/ice.jpeg');
+    min-height : 80% ;
+}
+
+
+.section {
+    text-align : center ;
+    padding : 40px 60px ;
+}
+
+.section-light {
+    background-color : rgba(209, 201, 201, 0.459);
+    color : rgba(63, 57, 57, 0.883);}
+
+/* .section-dark h2 {
+     color:blue;
+     font-size:35px;
+     text-transform : uppercase ;
+     background-color:black;
+     padding : 15px;
+     margin-top:0px;
+     border-top:0px;
+     padding-left:0px;
+ }   
+*/
+
+.section-dark {
+    background-color : rgba(63, 57, 57, 0.883);
+    color: rgba(240, 230, 230, 0.849);
+    
+}
+
+.ptext {
+    position: absolute ;
+    top : 50% ;
+    width: 100% ;
+    text-align : center ;
+    color : rgba(0, 0, 0, 0.925);
+    font-size : 40px;
+    letter-spacing: 0.5em ;
+    text-transform: uppercase ;
+    font-family: sans-serif ;
+}
+
+.ptext .border {
+    background-color :rgb(12, 11, 11);
+    color:white;
+    padding : 20px;
+}
+a {
+    text-decoration : none ;
+    color : white;
+    padding : 20px;
+    font-size : 40px;
+}
+.border :hover {
+    background-color: white;
+    color :rgb(12, 11, 11);
+    text-decoration : none ;
+}
+
+.ptext :hover {
+    font-size : 40.8px ;
+}
+@media (max-width: 568px){
+    .pimg1, .pimg2, .pimg3 {
+        background-attachment : scroll ;
+    }
+}
